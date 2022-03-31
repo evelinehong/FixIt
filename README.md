@@ -72,9 +72,10 @@ cd utils
 python calculate_final_result.py
 ```
 
-@inproceedings{hong2021fixing,
- author = {Hong, Yining and Mo, Kaichun and Yi, Li and Guibas, Leonidas J and Torralba, Antonio and Tenenbaum, Joshua B and Gan, Chuang},
- title = {Fixing Malfunctional Objects With Learned Physical Simulation and Functional Prediction},
- booktitle = {CVPR},
- year = {2022}
-}
+## Citation
+    @inproceedings{hong2021fixing,
+    author = {Hong, Yining and Mo, Kaichun and Yi, Li and Guibas, Leonidas J and Torralba, Antonio and Tenenbaum, Joshua B and Gan, Chuang},
+    title = {Fixing Malfunctional Objects With Learned Physical Simulation and Functional Prediction},
+    booktitle = {CVPR},
+    year = {2022}
+    }
