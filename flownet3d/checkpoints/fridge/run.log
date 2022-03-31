@@ -1,0 +1,59 @@
+Namespace(batch_size=32, cat='exp', cycle=False, dataset='SceneflowDataset', dataset_path='../../datasets/data_processed_maxcut_35_20k_2k_8192', dropout=0.5, emb_dims=512, epochs=250, eval=False, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+Namespace(batch_size=32, category='fridge', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=False, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+Namespace(batch_size=32, category='fridge', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=False, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+==epoch: 0, learning rate: 0.001000==
+Namespace(batch_size=32, category='fridge', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=False, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+==epoch: 0, learning rate: 0.001000==
+mean train EPE loss: 0.022200
+Namespace(batch_size=32, category='fridge', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=False, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+==epoch: 0, learning rate: 0.001000==
+mean train EPE loss: 0.022199
+mean test loss: 0.001664	EPE 3D: 0.033376	ACC 3D: 0.823483	ACC 3D 2: 0.902795
+best test loss till now: 0.001664
+==epoch: 1, learning rate: 0.001000==
+Namespace(batch_size=32, category='fridge', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=True, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+==FINAL TEST==
+mean test loss: 0.000334	EPE 3D: 0.014937	ACC 3D: 0.937309	ACC 3D 2: 0.987459
+Namespace(batch_size=32, category='fridge', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=True, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+==FINAL TEST==
+mean test loss: 0.000334	EPE 3D: 0.014937	ACC 3D: 0.937309	ACC 3D 2: 0.987459
+Namespace(batch_size=32, category='fridge', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=True, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+==FINAL TEST==
+mean test loss: 0.000334	EPE 3D: 0.014937	ACC 3D: 0.937309	ACC 3D 2: 0.987459
+==FINAL TEST==
+mean test loss: 0.000193	EPE 3D: 0.011532	ACC 3D: 0.974977	ACC 3D 2: 0.995632
+Namespace(batch_size=32, category='fridge', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=False, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+==epoch: 0, learning rate: 0.001000==
+mean train EPE loss: 0.022200
+Namespace(batch_size=32, category='fridge', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=False, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+==epoch: 0, learning rate: 0.001000==
+mean train EPE loss: 0.022199
+Namespace(batch_size=32, category='fridge', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=False, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+==epoch: 0, learning rate: 0.001000==
+mean train EPE loss: 0.022202
+mean test loss: 0.001356	EPE 3D: 0.030793	ACC 3D: 0.830472	ACC 3D 2: 0.912496
+best test loss till now: 0.001356
+==epoch: 1, learning rate: 0.001000==
+mean train EPE loss: 0.001291
+mean test loss: 0.001187	EPE 3D: 0.026764	ACC 3D: 0.848552	ACC 3D 2: 0.923779
+best test loss till now: 0.001187
+==epoch: 2, learning rate: 0.001000==
+Namespace(batch_size=32, category='fridge', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=True, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+==FINAL TEST==
+mean test loss: 0.000330	EPE 3D: 0.014819	ACC 3D: 0.938631	ACC 3D 2: 0.987734
+==FINAL TEST==
+mean test loss: 0.000193	EPE 3D: 0.011532	ACC 3D: 0.974977	ACC 3D 2: 0.995632
+Namespace(batch_size=32, category='fridge', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=True, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+==FINAL TEST==
+mean test loss: 0.000330	EPE 3D: 0.014819	ACC 3D: 0.938631	ACC 3D 2: 0.987734
+==FINAL TEST==
+mean test loss: 0.000238	EPE 3D: 0.012464	ACC 3D: 0.961344	ACC 3D 2: 0.992990
+Namespace(batch_size=32, category='fridge', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=True, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+==FINAL TEST==
+mean test loss: 0.000330	EPE 3D: 0.014819	ACC 3D: 0.938631	ACC 3D 2: 0.987734
+==FINAL TEST==
+mean test loss: 0.000238	EPE 3D: 0.012464	ACC 3D: 0.961344	ACC 3D 2: 0.992990
+Namespace(batch_size=32, category='exp', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=False, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+Namespace(batch_size=32, category='exp', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=False, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+Namespace(batch_size=32, category='fridge', cycle=False, dropout=0.5, emb_dims=512, epochs=250, eval=False, exp_name='fridge', gaussian_noise=False, lr=0.001, model='flownet', model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=16, unseen=False, use_sgd=False)
+==epoch: 0, learning rate: 0.001000==

@@ -1,0 +1,10 @@
+scipy
+numpy
+tqdm
+opencv-python
+matplotlib
+scikit-learn
+pybind11
+open3d
+ipdb
+tensorboardX
