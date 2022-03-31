@@ -14,7 +14,9 @@ Project Page: http://fixing-malfunctional.csail.mit.edu/
 
 ## Data and Checkpoints
 [Download Link](https://drive.google.com/drive/folders/1h9kMRilQcjbD4Tyt58pmMUEnMIicNATi?usp=sharing)
+
 Put the data under ./data folder
+
 We are still updating the dataset and Checkpoints
 
 ## SetUp
