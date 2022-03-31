@@ -42,7 +42,7 @@ python hungarian.py --split test
 ```
 cd pointnet++ 
 python train_insseg.py --model pointnet2_part_seg_msg --log_dir fridge
-python test_insseg.py --model pointnet2_part_seg_msg --log_dir fridge
+python test_insseg.py --log_dir fridge
 ```
 
 ## Dynamics Prediction Module
