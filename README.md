@@ -17,7 +17,7 @@ Project Page: http://fixing-malfunctional.csail.mit.edu/
 We are still updating the dataset and Checkpoints
 
 ## SetUp
-'''
+```
 conda create -n fixing python=3.7 pytorch=1.4.0 torchvision -c pytorch
 conda activate fixing
 
@@ -25,27 +25,27 @@ pip install -r requirements.txt
 
 cd flownet3d/lib
 python setup.py install
-'''
+```
 
 ## Flow Prediction Network
-'''
+```
 cd flownet3d
 python main.py --exp_name fridge #for training
 python main.py --exp_name fridge --eval #for testing
 cd utils
 python hungarian.py 
 python hungarian.py --split test
-'''
+```
 
 ## Instance Segmentation Network
-'''
+```
 cd pointnet++ 
 python train_insseg.py --model pointnet2_part_seg_msg --log_dir fridge
 python test_insseg.py --model pointnet2_part_seg_msg --log_dir fridge
-'''
+```
 
 ## Dynamics Prediction Module
-'''
+```
 # Training
 cd utils
 python rearrange_data_for_dpi.py
@@ -60,17 +60,17 @@ python rearrange_test_data_for_dpi.py
 python rearrange_test_data_for_dpi.py --split test
 cd dynamics
 bash scripts/eval_dpi.sh
-'''
+```
 
 ## Functional Prediction Module
-'''
+```
 cd pointnet++
 python train_classification.py  --model pointnet2_cls_ssg --log_dir fridge
 python test_classification.py fridge
 cd ../
 cd utils
 python calculate_final_result.py
-'''
+```
 
 @inproceedings{hong2021fixing,
  author = {Hong, Yining and Mo, Kaichun and Yi, Li and Guibas, Leonidas J and Torralba, Antonio and Tenenbaum, Joshua B and Gan, Chuang},
