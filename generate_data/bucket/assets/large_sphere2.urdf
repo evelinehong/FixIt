@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="large_sphere">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="hand3.obj"/>
+      </geometry>
+    </visual>
+    <inertial>
+			<mass value="100.0"/>
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+		</inertial>
+    <collision>
+      <geometry>
+        <mesh filename="hand3.obj"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
