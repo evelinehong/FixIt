@@ -17,7 +17,7 @@ Project Page: http://fixing-malfunctional.csail.mit.edu/
 
 Put the data under ./data folder
 
-We are still updating the dataset and Checkpoints
+We are still updating the dataset and filtering data with bad simulation states.
 
 ## SetUp
 ```
